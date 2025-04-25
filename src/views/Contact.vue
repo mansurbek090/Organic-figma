@@ -81,7 +81,7 @@
         Message* <br />
         <textarea
           placeholder="hello there,i would like to talk about how to..."
-          cols="107%"
+          cols="115%"
           rows="15px"
         ></textarea>
       </label>
@@ -248,7 +248,7 @@ export default {}
   width: calc(246 / 19.2 * 1vw);
   font-family: Open Sans;
   font-weight: 700;
-  font-size: calc(22 / 19.2 * 1vw);
+  font-size: calc(18 / 19.2 * 1vw);
   line-height: 165%;
   color: #525c60;
 }
@@ -287,7 +287,7 @@ export default {}
   color: #ababab;
 }
 .email-form > form > label > textarea {
-  width: 97%;
+  width: 100%;
   margin-top: calc(25 / 19.2 * 1vw);
   border-radius: calc(16 / 19.2 * 1vw);
   border: calc(1 / 19.2 * 1vw) solid #7eb693;

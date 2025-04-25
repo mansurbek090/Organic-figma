@@ -236,6 +236,22 @@
         </div>
       </div>
     </div>
+    <div class="shop-card1">
+      <div class="card-btn">
+        <button>Fresh</button>
+      </div>
+      <div class="card-img">
+        <img src="../assets/shopImages/shop12.png" alt="" />
+      </div>
+      <div class="card-title">
+        <h1>Organic Almods</h1>
+        <div class="card-lorem">
+          <del>$20.00</del>
+          <p>$15.00</p>
+          <img src="../assets/shopImages/Star (3).png" alt="satart" />
+        </div>
+      </div>
+    </div>
   </div>
   <div class="home_testimonial">
     <div class="testimonial_text">
@@ -298,55 +314,50 @@
         </div>
       </div>
     </div>
-
-    <div class="shop-card1">
-      <div class="card-btn">
-        <button>Fresh</button>
-      </div>
-      <div class="card-img">
-        <img src="../assets/shopImages/shop2.png" alt="" />
-      </div>
-      <div class="card-title">
-        <h1>Fresh Banana Fruites</h1>
-        <div class="card-lorem">
-          <del>$20.00</del>
-          <p>$14.00</p>
-          <img src="../assets/shopImages/Star (3).png" alt="satart" />
-        </div>
-      </div>
-    </div>
-
-    
-
     <div class="shop-card1">
       <div class="card-btn">
         <button>Vegatable</button>
       </div>
       <div class="card-img">
-        <img src="../assets/shopImages/shop4.png" alt="" />
+        <img src="../assets/shopImages/shop1.svg" alt="" />
       </div>
       <div class="card-title">
         <h1>Calabrese Broccoli</h1>
         <div class="card-lorem">
           <del>$20.00</del>
-          <p>$17.00</p>
+          <p>$13.00</p>
           <img src="../assets/shopImages/Star (3).png" alt="satart" />
         </div>
       </div>
     </div>
-
     <div class="shop-card1">
       <div class="card-btn">
-        <button>Health</button>
+        <button>Vegatable</button>
       </div>
       <div class="card-img">
-        <img src="../assets/shopImages/shop5.png" alt="" />
+        <img src="../assets/shopImages/shop1.svg" alt="" />
       </div>
       <div class="card-title">
-        <h1>Mung Bean</h1>
+        <h1>Calabrese Broccoli</h1>
         <div class="card-lorem">
           <del>$20.00</del>
-          <p>$11.00</p>
+          <p>$13.00</p>
+          <img src="../assets/shopImages/Star (3).png" alt="satart" />
+        </div>
+      </div>
+    </div>
+    <div class="shop-card1">
+      <div class="card-btn">
+        <button>Vegatable</button>
+      </div>
+      <div class="card-img">
+        <img src="../assets/shopImages/shop1.svg" alt="" />
+      </div>
+      <div class="card-title">
+        <h1>Calabrese Broccoli</h1>
+        <div class="card-lorem">
+          <del>$20.00</del>
+          <p>$13.00</p>
           <img src="../assets/shopImages/Star (3).png" alt="satart" />
         </div>
       </div>
@@ -467,6 +478,7 @@ export default {};
   padding-top: 8px;
 }
 .home_about {
+  padding-top: 130px;
   display: flex;
   gap: 0;
 } 
@@ -479,10 +491,51 @@ export default {};
 .home_about .home_about_text {
   flex-wrap:wrap ;
 }
+.home_about .home_about_text {
+  width: 650px;
+  
+}
+.home_about .home_about_text span {
+  font-family: Yellowtail;
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #7EB693;
+}
+.home_about_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_about_card h3 {
+  font-family: Roboto;
+font-weight: 800;
+font-size: 25px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #274C5B;
+}
+.home_about .home_about_text h2 {
+  font-family: Roboto;
+font-weight: 800;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #274C5B;
+}
+.home_about .home_about_text p {
+  font-family: Open Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 165%;
+letter-spacing: 0%;
+color: #525C60;
+}
 .home_testimonial {
   background-image: url('@/assets/homeImages/backgroundImage.jpg');
   width: 100%;
-  height: 2000px;
+  height: 1000px;
   margin-top: 130px;
   padding: 100px 0; /* yuqori va pastdan oraliq */
   display: flex;
@@ -640,4 +693,4 @@ export default {};
   box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
 }
 
-</style>
+</style>  
