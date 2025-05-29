@@ -45,7 +45,7 @@
           content of a page when looking a layout. The point of using.
         </p>
         <div>
-          <img src="../assets/contactImages/icon.svg" alt="icon" />
+          <img src="../assets/contactImages/Icon.svg" alt="icon" 
           <p>
             <span>New York, USA:</span> 299 Park Avenue New York, New York 10171
           </p>
